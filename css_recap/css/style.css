@@ -1,0 +1,36 @@
+body {
+    font-family: "Century Schoolbook", sans-serif;
+    background: linear-gradient(cornflowerblue, cadetblue);
+}
+
+#kenobi {
+    border-style: groove;
+    border-radius: 3rem;
+    border-width: 3rem;
+    border-color: #d78424;
+}
+
+a {
+    text-decoration: none;
+    color: #ff9100;
+}
+a:hover{
+    background-color: black;
+    color: #9dff00 !important;
+}
+
+a:visited {
+    color: #ff0202;
+}
+
+table {
+    background-color: blue;
+    width: 50%;
+}
+table tr:nth-child(2n) {
+    background-color: #00d9b8;
+}
+
+ul {
+    list-style: upper-roman;
+}
